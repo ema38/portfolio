@@ -1,0 +1,186 @@
+/* index.html */
+
+a {
+    text-decoration: none;
+}
+
+.cover-index {
+    background-color: #006284;
+}
+
+.align-center ,
+.picture-hello ,
+.picture-hello ,
+.profile-center {
+    text-align: center;
+}
+
+.logo {
+    width: 140px;
+    margin-top: 100px;
+}
+
+.page-title {
+    text-align: center;
+    font-size: 50px;
+    font-family: "Archivo Black", serif;
+    letter-spacing: 10px;
+    padding: 100px 0 100px;
+}
+
+.main-nav li {
+    writing-mode: vertical-rl;
+}
+
+.main-nav li a {
+    color: black;
+}
+
+.main-nav {
+    display: flex;
+    flex-direction : row-reverse;
+    justify-content: center;
+    gap: 1.5rem;
+    font-size: 24px;
+    list-style: none;
+    font-family: "Archivo Black", serif;
+    padding: 50px 0 120px;
+}
+
+.hello {
+    width: 150px;
+}
+
+.footer-sns {
+    list-style: none;
+    margin: 0px auto;
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 200px;
+}
+.footer-sns img {
+    width: 35px;
+}
+
+/* profile.html */
+
+p {
+    text-align: center;
+}
+
+.cover-profile {
+    background-color: #51A8DD;
+}
+
+.profile-center {
+    padding: 50px 0 20px;
+}
+
+.profile-photo ,
+.item-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: solid 1px black;
+}
+
+.profile-title {
+    text-align: center;
+    font-size: 20px;
+    font-family: "Archivo Black", serif;
+    letter-spacing: 8px;
+    padding: 10px 0 10px;
+}
+
+.profile-sentence {
+    font-size: 13px;
+    font-family: serif;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.sub-nav {
+    display: flex;
+    flex-direction : row-reverse;
+    justify-content: center;
+    gap: 1.5rem;
+    font-size: 16px;
+    list-style: none;
+    font-family: "Archivo Black", serif;
+    padding: 150px 0 0;
+}
+
+.sub-nav li a {
+    color: #566C73;
+}
+
+/* menu.html */
+
+.cover-menu {
+    background-color: #7DB9DE;
+}
+
+/* contact.html */
+
+.cover-contact {
+    background-color: #81C7D4;
+}
+
+.menu-item {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 16px;
+    padding-top: 170px;
+}
+
+.contact-sentence {
+    font-family: "Archivo Black", serif;
+    padding: 30px 0 40px;
+}
+
+.contact-form {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#name ,
+#email ,
+#message {
+    border-bottom: 1px solid #566C73;
+}
+
+.label-sentence ,
+#submit {
+    font-family: "Archivo Black", serif;
+}
+
+#submit {
+    margin-top: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #BDC0BA;
+}
+
+
+/* レスポンシブ */
+
+@media screen and (max-width: 480px) {
+    .profile-sentence {
+        max-width: 300px;
+    }
+
+    .menu-item {
+        display: flex;
+        flex-flow: column;
+    }
+}
