@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="お問い合わせです。">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>top/contact</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="cover-contact">
+            <h1 class="align-center">
+                <a href="index.html"><img class="logo" src="images/homelogo.svg" alt="トップページ"></a>
+            </h1>
+            <h2 class="page-title">F.YUSUKE</h2>
+        </div>
+    </header>
+
+    <main>
+        <p class="contact-sentence">下記フォームよりご連絡お願いいたします。</p>
+    </main>
+
+    <div class="contact-form">
+        <form action="/submit" method="POST">
+            <label for="name" class="label-sentence">お名前</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email" class="label-sentence">メールアドレス</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message" class="label-sentence">メッセージ</label>
+            <textarea name="message" id="message" cols="50" rows="3"></textarea>
+
+            <button type="submit" id="submit">送信</button>
+        </form>
+    </div>
+
+    <footer>
+        <nav>
+            <ul class="sub-nav">
+                <li><a href="profile.html">自己紹介</a></li>
+                <li><a href="menu.html">制作物</a></li>
+                <li><a href="contact.html">お問い合わせ</a></li>
+            </ul>
+        </nav>
+
+        <ul class="footer-sns">
+            <li><a href="リンク先のURL"><img src="images/btn-twitter.png" alt="twitter"></a></li>
+            <li><a href="リンク先のURL"><img src="images/btn-Instagram.png" alt="instagram"></a></li>
+            <li><a href="リンク先のURL"><img src="images/btn-youtube.png" alt="youtube"></a></li>
+    </ul>
+    </footer>
+</body>
+</html>
